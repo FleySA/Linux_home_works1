@@ -1,0 +1,114 @@
+   0 cd /home
+   1 ls
+   2 tree
+   3 mkdir animals
+   4 tree
+   5 cd/animals
+   6 tree
+   7 mkdir Dogs Cats Fisch
+   8 tree
+   9 cd /home
+  10 ls
+  11 rm animals
+  12 tree
+  13 rm animals
+  14 cd /animals
+  15 cd ..
+  16 cd /home
+  17 ls
+  18 rmdir Cats
+  19 rmdir Dogs
+  20 rmdir Fisch
+  21 tree
+  22 cd /animals
+  23 rmdir animals
+  24 tree
+  25 mkdir Animals
+  26 tree
+  27 cd /Animals
+  28 cd /home
+  29 tree
+  30 cd /Animals
+  31 mkdir -p /Animals/Dogs
+  32 mkdir -p /Animals/Cats
+  33 mkdir -p /Animals/Fisch
+  34 tree
+  35 cd /Animals
+  36 ls
+  37 tree
+  38 cd /home
+  39 tree
+  40 mv Animals
+  41 tree
+  42 rmdir Animals
+  43 tree
+  44 mkdir Animals
+  45 tree
+  46 cd /Animals
+  47 mkdir Dogs
+  48 tree
+  49 cd /Cats
+  50 pwd
+  51 ls
+  52 cd Cats
+  53 touch garfield
+  54 cd /animals
+  55 cd Animals
+  56 pwd
+  57 cd ..
+  58 cd Dogs
+  59 touch pluto
+  60 cd ..
+  61 cd Fisch 
+  62 touch nemo
+  63 cd ..
+  64 cd /home
+  65 tree
+  66 cd Animals
+  67 tree
+  68 ls
+  69 cd /home
+  70 ls
+  71 cd Animals
+  72 mkdir Dogs
+  73 mkdir Cats
+  74 mkdir Fisch
+  75 tree
+  76 cd Cats
+  77 touch garfild
+  78 cd ..
+  79 cd Dogs
+  80 touch pluto
+  81 cd ..
+  82 cd Fisch
+  83 touch nemo
+  84 cd ..
+  85 tree
+  86 cd /home
+  87 tree
+  88 cd ..
+  89 cd /tmp
+  90 touch adam
+  91 tree
+  92 cd ..
+  93 cd /home
+  94 mkdir humans
+  95 tree
+  96 cd ..
+  97 cd /tmp
+  98 cp adam /home/humans
+  99 cd ..
+ 100 cd /home
+ 101 tree
+ 102 cd /tmp
+ 103 touch evA
+ 104 ls
+ 105 mv evA /opt/eve
+ 106 /opt
+ 107 cd /opt
+ 108 mv eve /home/humans
+ 109 cd /home
+ 110 tree
+ 111 cd ..
+ 112 history
+ 113 history > history_14.txt
